@@ -1,0 +1,28 @@
+{
+  "grupo": "Grupo 3",
+  "problema": "fraude",
+  "modelo": "Random Forest",
+  "metricas": {
+    "auc": 0.9029551209525348,
+    "exactitud_balanceada": 0.867760357739346,
+    "brier": 0.04626621211278313
+  },
+  "hiperparametros": {
+    "n_estimators": 100,
+    "max_depth": 10,
+    "class_weight": "balanced",
+    "umbral_decision": 0.19,
+    "random_state": 42,
+    "particion_externa": "70/30 estratificada",
+    "validacion_interna": "80/20 del bloque de entrenamiento"
+  },
+  "semilla": 42,
+  "semilla_datos": 177005,
+  "fecha": "2026-11-18 23:13",
+  "versiones": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  }
+}
